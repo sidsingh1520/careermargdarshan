@@ -1,86 +1,86 @@
+const cardsData = [
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+	{
+		collegeName: "NIT DELHI",
+		query: "Can I get NIT Delhi at my marks?",
+	},
+];
 const ElementScroll = () => {
-	const cardsData = [
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-		{
-			collegeName: "NIT DELHI",
-			query: "Can I get NIT Delhi at my marks?",
-		},
-	];
 	return (
 		<div className="relative mt-10 overflow-x-hidden w-full flex-col justify-end gap-2 bg-gradient-to-t from-white via-green-200 to-white px-2 flex">
 			<div className="flex flex-row gap-2 bg-transparent custom">

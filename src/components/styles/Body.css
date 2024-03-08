@@ -1,0 +1,49 @@
+.customGreenBg {
+  background-color: #41f7cb;
+}
+
+.student-rounded-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.student-benefit-custom-bg {
+  /* background-image: linear-gradient("to right", #41f7cb); */
+  background: linear-gradient(156deg, rgba(255,255,255,0.25115983893557425) 60%, rgba(65,247,203,1) 100%);
+  padding-bottom: 5%;
+}
+
+.support-package-scroll-animation {
+	animation: scroll 25s linear infinite ;
+	scroll-behavior: smooth;
+}
+
+.support-package-scroll-animation:hover {
+	animation-play-state: paused;
+	scroll-behavior: unset;
+}
+
+.customSpan {
+    /* margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -15px; 
+    z-index: 1; */
+    margin-bottom:-20px ;
+}
+
+.student-benefit-custom-border {
+    border-radius: 20px;
+    border-right: 5px solid rgb(0, 0, 0, 0.7);
+    border-bottom: 5px solid rgb(0, 0, 0, 0.7);
+}
+
+.support-package-card{
+    border-radius: 20px;
+    /* border-right: 1px solid rgb(0, 0, 0, 0.7); */
+    border: 1px solid #000;
+}
