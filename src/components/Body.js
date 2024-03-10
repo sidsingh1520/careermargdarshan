@@ -4,6 +4,9 @@ import HelpCustomCard from "./HomeComponents/HelpCustomCard";
 import "./styles/Body.css";
 import StudentBenefits from "./HomeComponents/StudentBenefits";
 import SupportPackage from "./HomeComponents/SupportPackage";
+import AIPlatform from "./HomeComponents/AIPlatform";
+import PeopleSaying from "./HomeComponents/PeopleSaying";
+import StillThinking from "./HomeComponents/StillThinking";
 
 const Body = () => {
 	return <React.Fragment>
@@ -11,7 +14,9 @@ const Body = () => {
 		<HelpCustomCard />
 		<StudentBenefits />
 		<SupportPackage />
-		<div className="w-full mb-6 mt-6"><h1>df</h1></div>
+		<AIPlatform />
+		<PeopleSaying />
+		<StillThinking />
 	</React.Fragment>
 };
 

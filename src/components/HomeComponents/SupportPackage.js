@@ -80,23 +80,27 @@ const counsellingSupportPackage = [
 
 const SupportPackage = () => {
     return <React.Fragment>
-        <div className="w-12/12 mt-8 pt-8">
+        <div className="w-full mt-8 pt-8">
             <p className="text-4xl text-center mb-8 font-bold">Students Benefited in the Past!</p>
             <div className="relative mt-10 overflow-x-hidden w-full px-2 flex">
-
                 <div className="flex bg-transparent support-package-scroll-animation z-20">
                     {
                         counsellingSupportPackage.map((items, index) => (
                             <div className="flex-column min-w-[224px] min-h-[250px] max-h-[250px] support-package-card mx-4 px-4 py-2 z-0">
                                 {items.heading}
                                 {items.bullet_point}
-                               <p className="text-center customSpan z-40">
-                                <span className="border-2 px-8 py-2">#{index+1}</span>
+                                <p className="text-center customSpan z-40">
+                                    <span className="border-2 border-[#000] bg-white px-8 py-2">#{index + 1}</span>
                                 </p>
                             </div>
                         ))
                     }
                 </div>
+            </div>
+            <div className="flex justify-center mt-[5%]">
+                <button className="customGreenBg text-xl font-bold w-8/12 rounded-xl border-[1px] border-[#000] px-4 py-2">
+                    Sign Up Now!
+                </button>
             </div>
         </div>
     </React.Fragment>

@@ -1,3 +1,9 @@
+.help-custom-card-bg {
+  background-image: url("../../assets/HelpCardBg.png");
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
 .customGreenBg {
   background-color: #41f7cb;
 }
@@ -11,35 +17,66 @@
 
 .student-benefit-custom-bg {
   /* background-image: linear-gradient("to right", #41f7cb); */
-  background: linear-gradient(156deg, rgba(255,255,255,0.25115983893557425) 60%, rgba(65,247,203,1) 100%);
+  background: linear-gradient(
+    156deg,
+    rgba(255, 255, 255, 0.25115983893557425) 60%,
+    rgba(65, 247, 203, 1) 100%
+  );
   padding-bottom: 5%;
 }
 
 .support-package-scroll-animation {
-	animation: scroll 25s linear infinite ;
-	scroll-behavior: smooth;
+  animation: scroll 25s linear infinite;
+  scroll-behavior: smooth;
+  min-height: 300px;
 }
 
 .support-package-scroll-animation:hover {
-	animation-play-state: paused;
-	scroll-behavior: unset;
+  animation-play-state: paused;
+  scroll-behavior: unset;
 }
 
 .customSpan {
-    margin-top: 30px;
-    bottom: 0;
-    left: 50%;
-    margin-bottom: -15px; 
+  margin-top: 30px;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: -15px;
 }
 
 .student-benefit-custom-border {
-    border-radius: 20px;
-    border-right: 5px solid rgb(0, 0, 0, 0.7);
-    border-bottom: 5px solid rgb(0, 0, 0, 0.7);
+  border-radius: 20px;
+  border-right: 5px solid rgb(0, 0, 0, 0.7);
+  border-bottom: 5px solid rgb(0, 0, 0, 0.7);
 }
 
-.support-package-card{
-    border-radius: 20px;
-    /* border-right: 1px solid rgb(0, 0, 0, 0.7); */
-    border: 1px solid #000;
+.support-package-card {
+  border-radius: 20px;
+  /* border-right: 1px solid rgb(0, 0, 0, 0.7); */
+  border: 1px solid #000;
+}
+
+.ai-platform-section {
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.25115983893557425) 60%,
+    rgba(65, 247, 203, 1) 100%
+  );
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.people-saying-border {
+  border-radius: 20px;
+  border-right: 1px solid rgb(0, 0, 0);
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.people-saying-section {
+  background: linear-gradient(
+    179deg,
+    rgba(255, 255, 255, 0.25115983893557425) 60%,
+    rgba(65, 247, 203, 0.8) 100%
+  );
 }
