@@ -7,9 +7,11 @@ import SupportPackage from "./HomeComponents/SupportPackage";
 import AIPlatform from "./HomeComponents/AIPlatform";
 import PeopleSaying from "./HomeComponents/PeopleSaying";
 import StillThinking from "./HomeComponents/StillThinking";
+import MainContainer from "./MainContainer";
 
 const Body = () => {
 	return <React.Fragment>
+		<MainContainer />
 		<ElementScroll />
 		<HelpCustomCard />
 		<StudentBenefits />

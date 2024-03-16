@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
-import LOGO_TEXT from "../assets/logo_text.png";
 import BLOCK from "../assets/block.png";
+import Header from "./Header";
+
 const MainContainer = () => {
 	const initialList = useMemo(
 		() => ["IIT", "NIT", "IIIT", "Engineering College"],
@@ -24,18 +25,8 @@ const MainContainer = () => {
 	return (
 		<div className="flex flex-col gap-14 pb-6 items-center ">
 			<div className="w-full flex flex-col items-center bg-gradient-to-t from-white via-green-200 to-white">
-				<main className="flex max-w-6xl gap-6 items-center flex-col w-full">
-					<nav className="flex w-full items-center justify-between px-4 py-5">
-						<div className="flex text-center">
-							<img alt="logo" src={LOGO_TEXT} className="w-96" />
-						</div>
-						<div>
-							<button className="py-1 px-4 border-gray-400 border-2 font-semibold rounded-l-full rounded-r-full">
-								Enroll Now →
-							</button>
-						</div>
-					</nav>
-				</main>
+				<Header />
+
 				<div className="flex flex-col text-center items-center pt-16 font-bold gap-3 text-5xl">
 					<div>
 						Get into the Best{" "}
