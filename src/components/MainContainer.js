@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
-import LOGO_TEXT from "../assets/logo_text.png";
 import BLOCK from "../assets/block.png";
+import Header from "./Header";
+
 const MainContainer = () => {
 	const initialList = useMemo(
 		() => ["IIT", "NIT", "IIIT", "Engineering College"],
@@ -24,18 +25,8 @@ const MainContainer = () => {
 	return (
 		<div className="flex flex-col gap-14 pb-6 items-center ">
 			<div className="w-full flex flex-col items-center bg-gradient-to-t from-white via-green-200 to-white">
-				<main className="flex max-w-6xl gap-6 items-center flex-col w-full">
-					<nav className="flex w-full items-center justify-between px-4 py-5">
-						<div className="flex text-center">
-							<img alt="logo" src={LOGO_TEXT} className="w-96" />
-						</div>
-						<div>
-							<button className="py-1 px-4 border-gray-400 border-2 font-semibold rounded-l-full rounded-r-full">
-								Enroll Now →
-							</button>
-						</div>
-					</nav>
-				</main>
+				<Header />
+
 				<div className="flex flex-col text-center items-center pt-16 font-bold gap-3 text-5xl">
 					<div>
 						Get into the Best{" "}
@@ -43,9 +34,21 @@ const MainContainer = () => {
 					</div>
 					<div>Possible on your Rank</div>
 				</div>
-				<div className="flex flex-col items-center gap-4 text-center  text-gray-600 text-lg">
+				<div className="flex flex-col items-center gap-4 text-center">
 					<img src={BLOCK} className="w-96" alt="institution" />
-					<p className="text-center text-base">26,000+ people already singup</p>
+					<p className="text-center text-base text-gray-600">
+						26,000+ people already enrolled
+					</p>
+					{/* <button className="px-6 py-2 text-lg font-semibold rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+						Signup Now
+					</button> */}
+					<button className="px-6 py-2 bg-white text-lg font-semibold rounded-lg border-black border-2">
+						Signup Now
+					</button>
+					<p className="text-center text-base text-gray-600">
+						Already Enrolled ?{" "}
+						<span className="text-black font-bold">Sign In</span>
+					</p>
 				</div>
 			</div>
 		</div>

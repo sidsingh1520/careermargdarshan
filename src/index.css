@@ -21,6 +21,18 @@ body {
 	scroll-behavior: smooth;
 }
 
+.footer-section {
+	/* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(65,247,203,0.517266281512605) 52%, rgba(255,255,255,1) 100%); */
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(65,247,203,0.6881346288515406) 52%, rgba(255,255,255,1) 100%);
+}
+
+.footer-social-media-img {
+	height: 30px;
+	width: auto;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
 @keyframes scroll {
 	0% {
 		transform: translateX(0);
