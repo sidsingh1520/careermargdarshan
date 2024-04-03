@@ -59,7 +59,7 @@ const StudentBenefits = () => {
 			</p>
 			<div className="flex flex-wrap justify-center student-benefit-custom-bg px-8">
 				{studentBioData.map((items, index) => (
-					<div className="w-3/12 border mr-2 mb-8 px-4 py-2 bg-white student-benefit-custom-border">
+					<div className="w-full md:w-3/12 border mr-2 mb-8 px-4 py-2 bg-white student-benefit-custom-border">
 						<div className="flex justify-between w-full pl-4 mt-4 mb-8">
 							<img
 								src={items.image_url}

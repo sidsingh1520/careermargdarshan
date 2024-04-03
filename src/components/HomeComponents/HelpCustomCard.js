@@ -99,16 +99,17 @@ const data = [
 const HelpCustomCard = () => {
 	return (
 		<div className="flex flex-col text-center items-center pt-16 font-bold gap-3 text-3xl help-custom-card-bg">
-			<p className="text-3xl">
+			<p className="text-3xl sm:px-12">
 				#1 Engineering Counselling & Admission Support Platform
 			</p>
-			<div className="rounded-2xl w-10/12 bg-green-300 mt-8">
+			<div className="rounded-2xl w-full md:w-10/12 bg-green-300 mt-8">
 				<div className="rounded-2xl shadow-lg border-2 mt-2 mr-4 p-2 text-center items-center jusitfy-center bg-white">
 					<p className="text-2xl mt-[50px]">How exactly it will help you ? </p>
-					<div className="flex align-middle">
-						<div className="text-start my-8 pt-8 ml-8 pl-8 pb-8 w-10/12">
+					<img className="block md:hidden mt-4 mx-auto" src={img} alt="no-img" height={40} width={"auto"}/>
+					<div className="flex md:align-middle">
+						<div className="text-start my-8 md:pt-8 md:ml-8 md:pl-8 pb-8 w-10/12">
 							{data.map((items, idx) => (
-								<div key={idx} className="flex align-center ml-8">
+								<div key={idx} className="flex md:align-center ml-8">
 									{items.icon}
 									<p className="text-lg font-light ml-8 antialiased tracking-wide">
 										{items.message}
@@ -116,7 +117,7 @@ const HelpCustomCard = () => {
 								</div>
 							))}
 						</div>
-						<img className="my-auto" src={img} alt="no-img" />
+						<img className="my-auto hidden md:block" src={img} alt="no-img" />
 					</div>
 				</div>
 			</div>

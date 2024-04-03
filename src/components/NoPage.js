@@ -1,9 +1,11 @@
 import React from "react";
 
 const NoPage = () => {
-    return <React.Fragment>
+	return (
+		<React.Fragment>
+			<h2>No Page</h2>
+		</React.Fragment>
+	);
+};
 
-    </React.Fragment>
-}
-
-export default NoPage
+export default NoPage;

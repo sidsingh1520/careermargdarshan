@@ -63,7 +63,7 @@ const ContactUs = () => {
 					<p className="text-2xl font-[800] text-center">
 						For Business Enquiries
 					</p>
-					<p className="w-[10%] mt-[20px] text-center mx-auto border border-t-black border-2"></p>
+					<p className="w-[10%] mt-[20px] text-center mx-auto border-t-black border-2"></p>
 				</div>
 
 				<div className="mx-auto mb-8">

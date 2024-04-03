@@ -8,6 +8,9 @@ import NoPage from "./components/NoPage";
 import ContactUs from "./components/ContactUs/ContactUs";
 import AllotmentLetter from "./components/Allotment/AllotmentLetter";
 import Price from "./components/Price/Price";
+import SignIn from "./components/SignIn/SignIn";
+import Dashboard from "./components/Dashboard/Dashboard";
+import CollegeReport from "./components/Dashboard/CollegeReport";
 
 function App() {
 	return (
@@ -21,6 +24,8 @@ function App() {
 				<Route path="/allotmentletter" element={<AllotmentLetter />} />
 				<Route path="/price" element={<Price />} />
 				<Route path="/contact" element={<ContactUs />} />
+				<Route path="/signin" element={<SignIn />} />
+				<Route path="/dashboard/*" element={<Dashboard />} />
 				<Route path="*" element={<NoPage />} />
 			</Routes>
 		</div>

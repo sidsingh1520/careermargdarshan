@@ -3,14 +3,14 @@ import call from "../assets/call.png";
 import youtube from "../assets/youtube.png";
 import mail from "../assets/mail.png";
 
-const columnDivStyle = "flex-column pr-4 pl-[50px] py-6";
+const columnDivStyle = "flex-column pr-4 pl-[50px] md:py-6 py-4";
 const columnHeadingStyle = "text-2xl font-bold mb-[20px]";
 const columnAnchorStyle = "text-base font-bold block";
 
 const Footer = () => {
 	return (
 		<React.Fragment>
-			<div class="grid grid-cols-4 gap-4 px-8 bg-gradient-to-r from-white via-green-200 to-white">
+			<div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:px-8 bg-gradient-to-r from-white via-green-200 to-white">
 				<div className={columnDivStyle}>
 					<p className={columnHeadingStyle}>Services</p>
 					<a href="#" className={columnAnchorStyle}>
@@ -53,9 +53,9 @@ const Footer = () => {
 						Cancellation/Refund Policy
 					</a>
 				</div>
-				<div className={columnDivStyle + " text-center"}>
+				<div className={columnDivStyle + " md:text-center"}>
 					<p className={columnHeadingStyle}>Social</p>
-					<div className="flex justify-center">
+					<div className="flex md:justify-center">
 						<img
 							src={youtube}
 							alt="no-img"
@@ -64,7 +64,7 @@ const Footer = () => {
 						<img src={mail} alt="no-img" className="footer-social-media-img" />
 						<img src={call} alt="no-img" className="footer-social-media-img" />
 					</div>
-					<p className="text-base font-semibold">Helpline - +917657876789</p>
+					<p className="text-base font-semibold sm:mt-6">Helpline - +917657876789</p>
 				</div>
 			</div>
 			<div className="text-center w-full py-2 bg-green-500 text-white">

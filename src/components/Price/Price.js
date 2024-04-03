@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import "./Price.css";
-import IconImg from "../../assets/icon.png";
-import emailImage from "../../assets/mail.png";
-import callImage from "../../assets/call.png";
 import Header from "../Header";
 import Footer from "../Footer";
 

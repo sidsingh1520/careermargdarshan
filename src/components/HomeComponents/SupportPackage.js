@@ -1,6 +1,5 @@
-import React, { memo } from "react";
+import React from "react";
 
-const headingStyle = "text-3xl font-extrabold text-center text-[#005B45] mt-2";
 const bulletPointStyle = "flex-column mt-6";
 const bulletPointParaStyle = "text-base font-bold";
 const counsellingSupportPackage = [
