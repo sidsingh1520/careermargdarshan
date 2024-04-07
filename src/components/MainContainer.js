@@ -43,12 +43,12 @@ const MainContainer = () => {
 						Signup Now
 					</button> */}
 					<button className="px-6 py-2 bg-white text-lg font-semibold rounded-lg border-black border-2">
-						Signup Now
+						Register Now
 					</button>
-					<p className="text-center text-base text-gray-600">
+					{/* <p className="text-center text-base text-gray-600">
 						Already Enrolled ?{" "}
 						<span className="text-black font-bold">Sign In</span>
-					</p>
+					</p> */}
 				</div>
 			</div>
 		</div>

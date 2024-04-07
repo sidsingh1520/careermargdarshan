@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import LOGO_TEXT from "../assets/logo_text.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
 	const aHrefStyle = "mr-6 text-[15px] font-bold";
+	const bHrefStyle = "mr-6 text-[15px] font-bold underline underline-offset-8";
 	const [width, setWidth] = useState(window.innerWidth);
 
 	useEffect(() => {
@@ -16,34 +17,49 @@ const Header = () => {
 	}, []);
 	return (
 		<main className="flex w-full gap-6 md:items-center flex-col">
-			<nav className="flex w-full items-center justify-between md:px-4 py-5">
+			<nav className="flex w-full items-center justify-between md:px-4 py-5 ">
 				<div className="flex w-8/12 md:w-4/12">
 					<img alt="logo" src={LOGO_TEXT} className="w-full md:w-96" />
 				</div>
 				{width > 701 ? (
 					<div className="">
-						<Link to="/" className={aHrefStyle}>
+						<NavLink
+							to="/"
+							className={({ isActive }) => (isActive ? bHrefStyle : aHrefStyle)}
+						>
 							Home
-						</Link>
-						<Link to="/aboutus" className={aHrefStyle}>
+						</NavLink>
+						<NavLink
+							to="/aboutus"
+							className={({ isActive }) => (isActive ? bHrefStyle : aHrefStyle)}
+						>
 							About Us
-						</Link>
-						<Link to="/allotmentletter" className={aHrefStyle}>
+						</NavLink>
+						<NavLink
+							to="/allotmentletter"
+							className={({ isActive }) => (isActive ? bHrefStyle : aHrefStyle)}
+						>
 							Allotment Letters
-						</Link>
-						<Link to="/price" className={aHrefStyle}>
+						</NavLink>
+						<NavLink
+							to="/price"
+							className={({ isActive }) => (isActive ? bHrefStyle : aHrefStyle)}
+						>
 							Pricing
-						</Link>
-						<Link to="/contact" className={aHrefStyle}>
+						</NavLink>
+						<NavLink
+							to="/contact"
+							className={({ isActive }) => (isActive ? bHrefStyle : aHrefStyle)}
+						>
 							Contact Us
-						</Link>
+						</NavLink>
 						{/* <a href="./signup" className={aHrefStyle}>Signup</a> */}
-						<Link
+						{/* <Link
 							to="/signin"
 							className="py-1 px-4 text-[15px] border-gray-400 border-2 font-bold rounded-l-full rounded-r-full"
 						>
 							Sign In!
-						</Link>
+						</Link> */}
 					</div>
 				) : (
 					<div className="w-4/12">
