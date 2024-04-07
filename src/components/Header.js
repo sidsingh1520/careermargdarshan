@@ -10,7 +10,6 @@ const Header = () => {
 	useEffect(() => {
 		const handleResize = () => {
 			setWidth(window.innerWidth);
-			console.log("pehan", window.innerWidth);
 		};
 
 		window.addEventListener("resize", handleResize);
