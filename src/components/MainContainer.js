@@ -42,8 +42,10 @@ const MainContainer = () => {
 					{/* <button className="px-6 py-2 text-lg font-semibold rounded-lg bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
 						Signup Now
 					</button> */}
-					<button className="px-6 py-2 bg-white text-lg font-semibold rounded-lg border-black border-2">
-						Register Now
+					<button className="px-6 py-2 bg-white text-lg font-semibold rounded-lg border-black border-2" onClick={()=>{
+						window.open("https://pages.razorpay.com/pl_Nw6kzIHKYnrkfG/view","_self")
+					}}>
+						Enroll Now
 					</button>
 					{/* <p className="text-center text-base text-gray-600">
 						Already Enrolled ?{" "}

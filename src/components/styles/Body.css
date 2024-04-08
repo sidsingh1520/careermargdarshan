@@ -81,3 +81,9 @@
     rgba(65, 247, 203, 0.8) 100%
   ); */
 }
+
+.chat_screen_shot {
+  height: 500px;
+  width: auto !important;
+  max-width: 300px;
+}

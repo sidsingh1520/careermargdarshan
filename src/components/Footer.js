@@ -59,10 +59,18 @@ const Footer = () => {
 						<img
 							src={youtube}
 							alt="no-img"
-							className="footer-social-media-img"
+							onClick={() => {
+								window.open("https://www.youtube.com/@careermargdarshan2490")
+							}}
+							className="footer-social-media-img cursor-pointer"
 						/>
-						<img src={mail} alt="no-img" className="footer-social-media-img" />
-						<img src={call} alt="no-img" className="footer-social-media-img" />
+						<img src={mail} alt="no-img"
+							onClick={() => {
+								window.open("mailto:support@careermargdarshan.org")
+							}}
+							className="footer-social-media-img cursor-pointer"
+						/>
+						<img src={call} alt="no-img" className="footer-social-media-img cursor-pointer" />
 					</div>
 					<p className="text-base font-semibold sm:mt-6">Helpline - +917657876789</p>
 				</div>
