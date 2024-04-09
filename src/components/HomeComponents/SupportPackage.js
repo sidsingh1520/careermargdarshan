@@ -204,7 +204,9 @@ const SupportPackage = () => {
 					</div>
 				</div>
 				<div className="flex justify-center mt-[5%]">
-					<button className="text-white bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-500 text-xl font-bold w-8/12 rounded-xl border-[1px] px-4 py-2">
+					<button onClick={()=>{
+						window.open("https://pages.razorpay.com/pl_Nw6kzIHKYnrkfG/view","_self")
+					}} className="text-white bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-500 text-xl font-bold w-8/12 rounded-xl border-[1px] px-4 py-2">
 						Enroll Now!
 					</button>
 				</div>

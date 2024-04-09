@@ -61,21 +61,21 @@ const AllotmentLetter = () => {
 			<div className="flex flex-col gap-14 pb-6 items-center bg-gradient-to-t from-white via-green-200 to-white">
 				<Header />
 				<div className="flex w-[80%] mb-[50px] md:mb-[120px]">
-					<p className="text-[30px] md:text-[33px] font-bold mt-[15px] md:mt-[100px] mb-8 md:px-[140px]">
+					<p className="text-[20px] md:text-[33px] sm:text-[30px] font-bold mt-[15px] md:mt-[100px] mb-8 md:px-[140px]">
 						We possess thousands of allotment letters from our previous students
 						whom we've assisted in their counseling and admissions.
 					</p>
 				</div>
 			</div>
 			<div className="pt-[0px] md:pt-[60px]">
-				<p className="text-center text-[25px] font-[700] text-wrap w-8/12 md:w-full mx-auto">
+				<p className="text-center text-[30px] md:text-[36px] sm:text-[42px] font-[700] text-wrap w-full md:w-full sm:w-8/12 mx-auto">
 					Allotment letters of previous years students
 				</p>
 				<div className="flex flex-wrap w-10/12 mt-[50px] mx-auto justify-between">
 					{Array.from({ length: 20 }, (_, index) => {
 						return (
 							<div
-								className="letter_parent_div mb-8"
+								className="letter_parent_div mb-8 mx-auto"
 								key={"allotment" + index}
 							>
 								<div className="letter_parent_child">
@@ -91,7 +91,7 @@ const AllotmentLetter = () => {
 				</div>
 			</div>
 			<div className="pt-[60px] mb-[50px]">
-				<p className="text-center text-[25px] font-[800]">
+				<p className="text-center text-[30px] md:text-[36px] sm:text-[42px] font-[800]">
 					Message From The Team
 				</p>
 				<div className="flex flex-wrap w-11/12 mt-[50px] mx-auto">
@@ -103,7 +103,7 @@ const AllotmentLetter = () => {
 									alt="no-img"
 									className="h-[120px] md:h-[166px] mx-auto md:mx-0"
 								/>
-								<div className="mt-[20px] md:mt-[120px] w-full md:w-11/12 mx-auto">
+								<div className="w-full md:w-11/12 mx-auto">
 									<p className="text-2xl md:text-3xl font-semibold mt-[20px] md:mt-[0px] mb-[60px] w-full md:w-10/12 mx-auto">
 										Thousands of students have been allocated seats in numerous
 										prestigious colleges across the country...

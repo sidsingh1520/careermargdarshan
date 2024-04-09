@@ -17,18 +17,22 @@ const ContactUs = () => {
 		<React.Fragment>
 			<div className="contact_bg">
 				<Header />
-				<p className="text-[32px] text-start font-[700] mt-[100px] ml-[150px]">
-					{`Contact Us :)`}
-				</p>
+				<div className="flex justify-start">
+
+					<p className="text-[32px] font-[700] mt-[100px] w-[80%] mx-auto">
+						{`Contact Us :)`}
+					</p>
+				</div>
 			</div>
-			<div className="flex-row mt-[50px] w-full">
+			<div className="flex-row mt-[50px] w-full md:w-full sm:w-full">
 				<div className="flex-col mx-auto items-center">
 					<p className="text-2xl font-[800] text-center">
 						Get in touch with our friendly support team!
 					</p>
 					<p className="custom-separator mx-auto"></p>
 				</div>
-				<div className="flex justify-between w-[60%] mx-auto mt-8">
+				<div className="flex-col md:flex-row sm:flex-row md:justify-between sm:justify-between w-[90%] md:w-[60%] sm:w-[60%] mx-auto mt-8">
+					<div className="flex justify-end md:justify-end sm:justify-end"><img src={IconImg} alt="no-img" className="h-[125px]" /></div>
 					<div className="mt-8">
 						<p className="text-xl mt-8 mb-4">
 							Our business hours are 10:00 AM to 6:00 PM
@@ -42,20 +46,23 @@ const ContactUs = () => {
 						</div>
 						<div className="flex mb-4">
 							<img src={emailImage} alt="" className="h-[22px] mr-4" />
-							<p className="" onClick="mailto:support@careermargdarshan.org">
+							<p className="cursor-pointer" onClick={() => window.open("mailto:support@careermargdarshan.org")}>
 								support@careermargdarshan.org
 							</p>
 						</div>
 					</div>
-					<img src={IconImg} alt="no-image" className="h-[125px]" />
+
 				</div>
-				<div className="flex-col w-[60%] mx-auto mt-[50px]">
-					<p className="text-2xl font-bold mb-6">
+				<div className="flex-col w-[100%] md:w-[60%] sm:w-[60%] mx-auto mt-[50px]">
+					<p className="text-2xl font-bold mb-6 text-center">
 						Facing any issue with our product our service?
 					</p>
-					<button className="text-xl font-bold px-6 py-2 bg-green-400 rounded-full">
-						Raise a ticket
-					</button>
+					<div className="flex justify-center md:justify-start sm:justify-start">
+						<button className="text-xl font-bold px-6 py-2 bg-green-400 rounded-full">
+							Raise a ticket
+						</button>
+					</div>
+
 				</div>
 			</div>
 			<div className="flex-col mt-[70px] w-full mb-[60px]">
@@ -63,14 +70,14 @@ const ContactUs = () => {
 					<p className="text-2xl font-[800] text-center">
 						For Business Enquiries
 					</p>
-					<p className="w-[10%] mt-[20px] text-center mx-auto border-t-black border-2"></p>
+					<p className="w-[40%] md:w-[10%] sm:w-[10%] mt-[20px] text-center mx-auto border-t-black border-2"></p>
 				</div>
 
 				<div className="mx-auto mb-8">
-					<p className="text-base font-bold mt-[20px] text-center">
+					<p className="text-xl md:text-2xl sm:text-2xl font-bold mt-[20px] text-center">
 						Please enter your details to get in touch with our business team
 					</p>
-					<div className="flex-col w-[40%] mx-auto">
+					<div className="flex-col w-full md:w-[40%] sm:w-[40%] mx-auto">
 						<input
 							type="text"
 							placeholder="Enter your name..."
@@ -112,8 +119,8 @@ const ContactUs = () => {
 
 						<input
 							type="button"
-							onClick={() => {}}
-							className="inputField mx-auto bg-green-400 font-bold"
+							onClick={() => { }}
+							className="inputField mx-auto bg-green-400 font-bold cursor-pointer"
 							value="Submit"
 						/>
 					</div>

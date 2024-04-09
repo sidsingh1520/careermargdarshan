@@ -17,9 +17,12 @@ const TermsAndCond = () => {
 		<React.Fragment>
 			<div className="contact_bg">
 				<Header />
-				<p className="text-[32px] text-start font-[700] mt-[100px] ml-[150px]">
-					{`Terms & Conditions `}
-				</p>
+				<div className="flex justify-start">
+
+					<p className="text-[32px] font-[700] mt-[100px] w-[80%] mx-auto">
+						{`Terms & Conditions `}
+					</p>
+				</div>
 			</div>
 			<div className="flex-row mt-[50px] w-10/12 mx-auto border-2 px-[5%] mb-10">
 				<div className="flex-col mx-auto items-center py-10 my-10">
@@ -117,8 +120,8 @@ const TermsAndCond = () => {
 					<div className="mb-10">
 
 						<p className="text-[16px]">
-							By enrolling in our programs, you acknowledge that you have read, understood, and agreed to these terms and conditions. 
-							If you have any questions or concerns, please contact us 
+							By enrolling in our programs, you acknowledge that you have read, understood, and agreed to these terms and conditions.
+							If you have any questions or concerns, please contact us
 							at &nbsp; <a href="mailto:support@careermargdarshan.org" className="text-blue-900">support@careermargdarshan.org</a>.
 						</p>
 					</div>

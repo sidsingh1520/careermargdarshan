@@ -9,6 +9,7 @@ const MainContainer = () => {
 	);
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [currentItem, setCurrentItem] = useState(initialList[0]);
+	const [width, setWidth] = useState(window.innerWidth);
 
 	useEffect(() => {
 		// Function to change the current item after a specified interval
@@ -25,14 +26,15 @@ const MainContainer = () => {
 	return (
 		<div className="flex flex-col gap-14 pb-6 items-center ">
 			<div className="w-full flex flex-col items-center bg-gradient-to-t from-white via-green-200 to-white">
-				<Header />
+				
 
-				<div className="flex flex-col text-center items-center pt-16 font-bold gap-3 text-5xl">
-					<div>
+				<div className="flex flex-col text-center items-center pt-16 font-bold gap-3">
+					<p className="text-[28px] md:text-[48px] sm:text-[48px]">
 						Get into the Best{" "}
-						<span className="text-green-500">{currentItem}</span>
-					</div>
-					<div>Possible on your Rank</div>
+						{width > 701 && <span className="text-green-500 text-[28px] md:text-[48px] sm:text-[48px]">{currentItem}</span>}
+					</p>
+					{width < 701 && <span className="text-green-500 text-[28px] md:text-[48px] sm:text-[48px]">{currentItem}</span>}
+					<p className="text-[28px] md:text-[48px] sm:text-[48px]">Possible on your Rank</p>
 				</div>
 				<div className="flex flex-col items-center gap-4 text-center">
 					<img src={BLOCK} className="w-96" alt="institution" />
