@@ -3,15 +3,9 @@
     height: 50vh;
 }
 
-.allotment-separator {
-    border-top: 3px solid black;
-    width: 13%;
+.custom-separator {
+    border-top: 2px solid black;
+    width: 50%;
     text-align: center;
     margin-top:20px; 
 }
-
-@media only screen and (max-width: 600px) {
-    .allotment-separator {
-        width: 40%;
-    }
-  }

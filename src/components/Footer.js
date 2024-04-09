@@ -40,16 +40,16 @@ const Footer = () => {
 				</div>
 				<div className={columnDivStyle}>
 					<p className={columnHeadingStyle}>Company</p>
-					<a href="#" className={columnAnchorStyle}>
+					<a href="../TermsAndCondition" className={columnAnchorStyle}>
 						Terms & Conditions
 					</a>
-					<a href="#" className={columnAnchorStyle}>
+					<a href="../PrivacyPolicy" className={columnAnchorStyle}>
 						Privacy Policy
 					</a>
-					<a href="#" className={columnAnchorStyle}>
+					<a href="../contact" className={columnAnchorStyle}>
 						Contact Us
 					</a>
-					<a href="#" className={columnAnchorStyle}>
+					<a href="../RefundPolicy" className={columnAnchorStyle}>
 						Cancellation/Refund Policy
 					</a>
 				</div>

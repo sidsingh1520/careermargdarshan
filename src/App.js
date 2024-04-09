@@ -11,6 +11,9 @@ import Price from "./components/Price/Price";
 import SignIn from "./components/SignIn/SignIn";
 import Dashboard from "./components/Dashboard/Dashboard";
 import CollegeReport from "./components/Dashboard/CollegeReport";
+import TermsAndCond from "./components/Privacy/TermsAndCond";
+import PrivacyPolicy from "./components/Privacy/PrivacyPolicy";
+import RefundPolicy from "./components/Privacy/RefundPolicy";
 
 function App() {
 	return (
@@ -26,6 +29,9 @@ function App() {
 				<Route path="/contact" element={<ContactUs />} />
 				<Route path="/signin" element={<SignIn />} />
 				<Route path="/dashboard/*" element={<Dashboard />} />
+				<Route path="/TermsAndCondition" element={<TermsAndCond />} />
+				<Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+				<Route path="/RefundPolicy" element={<RefundPolicy />} />
 				<Route path="*" element={<NoPage />} />
 			</Routes>
 		</div>

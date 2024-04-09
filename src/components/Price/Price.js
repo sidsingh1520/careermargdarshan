@@ -4,7 +4,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 
 const Price = () => {
-	const customPTag = "text-2xl mb-6";
+	const customPTag = "text-xl mb-6";
 
 	return (
 		<React.Fragment>
@@ -14,39 +14,48 @@ const Price = () => {
 					{`Pricing $`}
 				</p>
 			</div>
-			<div className="flex-row mt-[50px] w-full mb-[60px]">
-				<div className="border-2 border-black rounded-[30px] px-[40px] py-[50px] w-[70%] mx-auto">
-					<p className={customPTag}>
-						Get Your College Possibility Report Based On Your Jee Score.
+			<div className="flex-row mt-[50px] w-full mb-[60px] mx-auto">
+				<p className="text-3xl font-bold text-center">Pricing Made Easy</p>
+				<p className="allotment-separator mx-auto"></p>
+				<br />
+				<div className="border-2 border-black rounded-[30px] px-[40px] py-[30px] w-[70%] mx-auto">
+					<p className="text-2xl font-bold text-center">
+						Complete Counselling Package
 					</p>
-					<p className={customPTag}>
-						Get The Perfect Choice Filling Ordering For Your Counselling.
+
+					<p className="text-2xl font-bold text-center my-10 mx-auto">
+						<span className="line-through text-red-600">Rs. 20000/-</span>
+						<span className="text-[38px] font-[800] text-center mt-8 ml-2">
+							Rs. 6499/- Only
+						</span>
 					</p>
-					<p className={customPTag}>
-						Get Your Branch Wise College Possibility Report.
-					</p>
-					<p className={customPTag}>
-						Get Exact College Information With Career Margdarshan AI (24*7).
-					</p>
-					<p className={customPTag}>
-						Expert Counsellors Will Help You Get Into The Best Possible College.
-					</p>
-					<p className={customPTag}>
-						Live Whatsapp Support For Your Queries, Choice Filling & Comparison.
-					</p>
+
+					{/* <ul> */}
+
+
+						<li className={customPTag}>
+							Get Your College Possibility Report Based On Your Jee Score (Exact colleges you are getting through different counsellings)
+						</li>
+						<li className={customPTag}>
+							Get Your choice filling done perfectly by the experts for best allotment
+						</li>
+						<li className={customPTag}>
+							Get Your Branch Wise College Possibility Report.
+						</li>
+						<li className={customPTag}>
+							Get Exact College Information With Career Margdarshan AI (24*7).
+						</li>
+						<li className={customPTag}>
+							Dedicated One One One Counselling From Experts Counsellors To get You into The Best College.
+						</li>
+						<li className={customPTag}>
+							One One One Support For Your Queries, Choice Filling & College Comparison doubts.
+						</li>
+					{/* </ul> */}
 				</div>
 			</div>
 
 			<div className="mx-auto w-[70%] text-center">
-				<p className="text-3xl font-bold line-through text-center text-teal-500">
-					Rs. 20000/-
-				</p>
-				<p className="text-[36px] font-[800] text-center mt-8 bg-clip-text text-transparent bg-gradient-to-t from-green-600 to-black">
-					Rs. 2999/- Only
-				</p>
-				{/* <button className="text-3xl font-[800] text-center mt-8 bg-green-400 px-[20px] py-[10px] rounded-[30px] w-full mx-auto mb-[80px]">
-					ENROLL NOW!
-				</button> */}
 				<button className="text-white bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-500 text-xl font-bold w-full rounded-xl border-[1px] px-4 py-2 my-10 hover:text-black">
 					ENROLL NOW!
 				</button>
@@ -57,3 +66,5 @@ const Price = () => {
 };
 
 export default Price;
+
+//41F7CB

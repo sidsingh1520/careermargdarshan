@@ -5,6 +5,55 @@ import DashIconElement from "../../assets/icon.png";
 import PaintIcon from "../../assets/paint_icon.png";
 import Footer from "../Footer";
 import Header from "../Header";
+import one from "../../assets/allotment_letters/1.png"
+import two from "../../assets/allotment_letters/2.png"
+import three from "../../assets/allotment_letters/3.png"
+import four from "../../assets/allotment_letters/4.png"
+import five from "../../assets/allotment_letters/5.png"
+import six from "../../assets/allotment_letters/6.png"
+import seven from "../../assets/allotment_letters/7.png"
+import eight from "../../assets/allotment_letters/8.png"
+import nine from "../../assets/allotment_letters/9.png"
+import ten from "../../assets/allotment_letters/10.png"
+import eleven from "../../assets/allotment_letters/11.png"
+import twelve from "../../assets/allotment_letters/12.png"
+import thirteen from "../../assets/allotment_letters/13.png"
+import fourteen from "../../assets/allotment_letters/14.png"
+import fifteen from "../../assets/allotment_letters/15.png"
+import sixteen from "../../assets/allotment_letters/16.png"
+import seventeen from "../../assets/allotment_letters/17.png"
+import eighteen from "../../assets/allotment_letters/18.png"
+import nineteen from "../../assets/allotment_letters/19.png"
+import twenty from "../../assets/allotment_letters/20.png"
+// import twentyone from "../../assets/allotment_letters/21.png"
+// import twentytwo from "../../assets/allotment_letters/22.png"
+
+
+const allotment_letters = {
+    0: one,
+    1: two,
+    2: three,
+    3: four,
+    4: five,
+    5: six,
+    6: seven,
+    7: eight,
+    8: nine,
+    9: ten,
+    10: eleven,
+    11: twelve,
+    12: thirteen,
+    13: fourteen,
+    14: fifteen,
+    15: sixteen,
+    16: seventeen,
+    17: eighteen,
+    18: nineteen,
+    19: twenty,
+    // 20: twentyone,
+    // 21: twentytwo
+};
+
 
 const AllotmentLetter = () => {
 	return (
@@ -23,7 +72,7 @@ const AllotmentLetter = () => {
 					Allotment letters of previous years students
 				</p>
 				<div className="flex flex-wrap w-10/12 mt-[50px] mx-auto justify-between">
-					{Array.from({ length: 10 }, (_, index) => {
+					{Array.from({ length: 20 }, (_, index) => {
 						return (
 							<div
 								className="letter_parent_div mb-8"
@@ -31,8 +80,8 @@ const AllotmentLetter = () => {
 							>
 								<div className="letter_parent_child">
 									<img
-										src={ownerImg}
-										alt="no-image"
+										src={allotment_letters[index]}
+										alt="no-img"
 										className="allotment-letter-image"
 									/>
 								</div>
@@ -51,7 +100,7 @@ const AllotmentLetter = () => {
 							<div className="flex flex-wrap">
 								<img
 									src={DashIconElement}
-									alt="no-image"
+									alt="no-img"
 									className="h-[120px] md:h-[166px] mx-auto md:mx-0"
 								/>
 								<div className="mt-[20px] md:mt-[120px] w-full md:w-11/12 mx-auto">
@@ -69,7 +118,7 @@ const AllotmentLetter = () => {
 									</p>
 									<img
 										src={PaintIcon}
-										alt="no-image"
+										alt="no-img"
 										className="mx-auto mt-6"
 									/>
 								</div>
