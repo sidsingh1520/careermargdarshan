@@ -1,5 +1,30 @@
 import React from "react";
-import ss from "../../assets/chat_ss.jpeg";
+import one from "../../assets/chat_ss/1.png"
+import two from "../../assets/chat_ss/2.png"
+import three from "../../assets/chat_ss/3.png"
+import four from "../../assets/chat_ss/4.png"
+import five from "../../assets/chat_ss/5.png"
+import six from "../../assets/chat_ss/6.png"
+import seven from "../../assets/chat_ss/7.png"
+import eight from "../../assets/chat_ss/8.png"
+import nine from "../../assets/chat_ss/9.png"
+import ten from "../../assets/chat_ss/10.png"
+import eleven from "../../assets/chat_ss/11.png"
+
+
+const chatData = {
+	0 : one,
+	1 : two,
+	2 : three,
+	3 : four,
+	4 : five,
+	5 : six,
+	6 : seven,
+	7 : eight,
+	8 : nine,
+	9 : ten,
+	10 : eleven
+}
 
 const PeopleSaying = () => {
 	return (
@@ -8,39 +33,19 @@ const PeopleSaying = () => {
 				<p className="text-4xl text-center mb-[80px] font-bold">
 					See What People Are Saying About Us!
 				</p>
-				{/* <div className="relative mt-10 overflow-x-hidden w-full px-2 flex ">
-					<div className="flex bg-transparent support-package-scroll-animation z-20">
-						{Array.from({ length: 6 }, (items, index) => (
-							<div className="w-full md:w-3/12 md:mx-4 mb-8 py-2 pr-2 bg-green-200 rounded-xl rounded-l-none ">
-								<img
-									src={ss}
-									alt="no_image"
-									className="h-[400px] w-[auto] aspect-video"
-								/>
-							</div>
-						))}
-					</div>
-				</div> */}
-				<div className="mt-10 overflow-x-hidden w-full px-2">
+				<div className="mt-10 overflow-x-hidden w-12/12 px-2">
 					<div className="flex bg-transparent support-package-scroll-animation z-20 w-full">
-						{Array.from({ length: 6 }, (items, index) => (
-							<div className="w-[300] mb-8 py-2 pr-2 bg-green-200 rounded-xl rounded-l-none ">
+						{Array.from({ length: 11 }, (items, index) => (
+							<div className="w-[300] mb-8 py-2 pr-2 bg-green-200 rounded-xl mr-2 rounded-l-none ">
 								<img
-									src={ss}
+									src={chatData[index]}
 									alt="no_image"
-									className="h-[400px] w-[300px]"
+									className="chat_screen_shot"
 								/>
 							</div>
 						))}
 					</div>
 				</div>
-				{/* <div className="flex flex-wrap justify-center px-8 mx-4">
-					{Array.from({ length: 6 }, (items, index) => (
-						<div className="w-3/12 border mr-2 mb-8 py-2 px-4 bg-white people-saying-border">
-							<img src={ss} alt="no_image" className="h-[450px] w-[auto]" />
-						</div>
-					))}
-				</div> */}
 			</div>
 		</React.Fragment>
 	);

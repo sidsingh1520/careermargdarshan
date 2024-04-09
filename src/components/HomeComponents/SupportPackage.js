@@ -70,7 +70,7 @@ const counsellingSupportPackage = [
 	{
 		heading: (
 			<p className="text-center bg-clip-text text-transparent bg-gradient-to-r from-green-800 to-teal-500 text-3xl font-bold">
-				JOSAA <br />
+				MPDTE <br />
 				Counselling
 			</p>
 		),
@@ -86,7 +86,7 @@ const counsellingSupportPackage = [
 	{
 		heading: (
 			<p className="text-center bg-clip-text text-transparent bg-gradient-to-r from-green-800 to-teal-500 text-3xl font-bold">
-				JOSAA <br />
+				UPTAC <br />
 				Counselling
 			</p>
 		),
@@ -102,7 +102,23 @@ const counsellingSupportPackage = [
 	{
 		heading: (
 			<p className="text-center bg-clip-text text-transparent bg-gradient-to-r from-green-800 to-teal-500 text-3xl font-bold">
-				LAST <br />
+				JAC <br />
+				Chandigarh
+			</p>
+		),
+		bullet_point: (
+			<div className={bulletPointStyle}>
+				<p className={bulletPointParaStyle}>College Report</p>
+				<p className={bulletPointParaStyle}>Choice Filling Prefrence</p>
+				<p className={bulletPointParaStyle}>Branch Wise Report</p>
+				<p className={bulletPointParaStyle}>Expert Counselling</p>
+			</div>
+		),
+	},
+	{
+		heading: (
+			<p className="text-center bg-clip-text text-transparent bg-gradient-to-r from-green-800 to-teal-500 text-3xl font-bold">
+				PTU <br />
 				Counselling
 			</p>
 		),
@@ -118,7 +134,39 @@ const counsellingSupportPackage = [
 	{
 		heading: (
 			<p className="text-center bg-clip-text text-transparent bg-gradient-to-r from-green-800 to-teal-500 text-3xl font-bold">
-				JOSAA <br />
+				HBTU <br />
+				Counselling
+			</p>
+		),
+		bullet_point: (
+			<div className={bulletPointStyle}>
+				<p className={bulletPointParaStyle}>College Report</p>
+				<p className={bulletPointParaStyle}>Choice Filling Prefrence</p>
+				<p className={bulletPointParaStyle}>Branch Wise Report</p>
+				<p className={bulletPointParaStyle}>Expert Counselling</p>
+			</div>
+		),
+	},
+	{
+		heading: (
+			<p className="text-center bg-clip-text text-transparent bg-gradient-to-r from-green-800 to-teal-500 text-3xl font-bold">
+				MAHCET <br />
+				Counselling
+			</p>
+		),
+		bullet_point: (
+			<div className={bulletPointStyle}>
+				<p className={bulletPointParaStyle}>College Report</p>
+				<p className={bulletPointParaStyle}>Choice Filling Prefrence</p>
+				<p className={bulletPointParaStyle}>Branch Wise Report</p>
+				<p className={bulletPointParaStyle}>Expert Counselling</p>
+			</div>
+		),
+	},
+	{
+		heading: (
+			<p className="text-center bg-clip-text text-transparent bg-gradient-to-r from-green-800 to-teal-500 text-3xl font-bold">
+				Other State <br />
 				Counselling
 			</p>
 		),
@@ -156,8 +204,10 @@ const SupportPackage = () => {
 					</div>
 				</div>
 				<div className="flex justify-center mt-[5%]">
-					<button className="text-white bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-500 text-xl font-bold w-8/12 rounded-xl border-[1px] px-4 py-2">
-						Sign Up Now!
+					<button onClick={()=>{
+						window.open("https://pages.razorpay.com/pl_Nw6kzIHKYnrkfG/view","_self")
+					}} className="text-white bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-500 text-xl font-bold w-8/12 rounded-xl border-[1px] px-4 py-2">
+						Enroll Now!
 					</button>
 				</div>
 			</div>

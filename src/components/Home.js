@@ -9,10 +9,12 @@ import PeopleSaying from "./HomeComponents/PeopleSaying";
 import StillThinking from "./HomeComponents/StillThinking";
 import MainContainer from "./MainContainer";
 import Footer from "./Footer";
+import Header from "./Header";
 
 const Body = () => {
 	return (
 		<React.Fragment>
+			<Header />
 			<MainContainer />
 			<ElementScroll />
 			<HelpCustomCard />
