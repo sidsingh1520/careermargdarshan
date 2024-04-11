@@ -30,10 +30,10 @@ const StillThinking = () => {
 	return (
 		<React.Fragment>
 			<div className="w-12/12 mt-8 pt-8 mb-[50px]">
-				<p className="text-3xl md:text-4xl mb-[80px] font-bold text-wrap text-center">
+				<p className="text-2xl md:text-4xl sm:text-4xl font-bold text-wrap text-center">
 					Still Thinking Whether Your Should Enroll Or Not?
 				</p>
-				<div className="flex flex-wrap justify-between w-10/12 mx-auto">
+				<div className="flex flex-wrap justify-between w-10/12 mx-auto mt-10">
 					{Array.from({ length: 8 }, (items, index) => (
 						<div className="w-full md:w-3/12 mx-auto mb-4 border-2 bg-green-300 border-black rounded-lg">
 							<iframe

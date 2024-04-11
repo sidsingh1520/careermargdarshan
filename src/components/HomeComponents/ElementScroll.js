@@ -247,7 +247,7 @@ const cardsData3 = [
 const ElementScroll = () => {
 	return (
 		<div>
-			<h3 className="text-center font-bold my-8  text-3xl">
+			<h3 className="text-center font-bold my-8 text-2xl md:text-4xl sm:text-4xl">
 				We Have Helped 11000+ Students Get Into Top Colleges
 			</h3>
 

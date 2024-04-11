@@ -30,10 +30,10 @@ const AIPlatform = () => {
 						24*7 Assistance
 					</p>
 				</div> */}
-				<div className="relative mt-2 md:mt-10 sm:mt-10 w-10/12 md:w-[29%] sm:w-[29%] mx-auto">
+				<div className="relative mt-2 md:mt-6 sm:mt-6 w-10/12 md:w-[29%] sm:w-[29%] mx-auto">
 					<div className="absolute -inset-2 bg-gradient-to-r from-orange-600 via-pink-600 to-purple-600 rounded-lg blur opacity-25"></div>
 
-					<div className="relative flex-col px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-3xl shadow-2xl leading-none items-top justify-start space-x-6 mx-center">
+					<div className="relative flex-col px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-3xl shadow-2xl leading-none items-top justify-start mx-center">
 						<div className="flex justify-center mt-[15px] md:mt-[25px] sm:mt-[25px]">
 							<img
 								src={openAiImg}
@@ -45,7 +45,7 @@ const AIPlatform = () => {
 							Career Margdarshan AI
 						</p>
 
-						<p className="ml-[12px] mt-[15px] md:mt-[25px] sm:mt-[25px] mb-[20px] md:mb-[40px] sm:mb-[40px] leading-8 mx-auto text-start">
+						<p className="ml-[16px] md:ml-[25px] sm:ml-[25px] mt-[15px] md:mt-[25px] sm:mt-[25px] mb-[20px] md:mb-[40px] sm:mb-[40px] leading-8 mx-auto text-start">
 							Ask Any College Information <br />
 							Compare Colleges <br />
 							Choice Filling Related Doubt <br />
