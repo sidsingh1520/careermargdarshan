@@ -254,7 +254,8 @@ const ElementScroll = () => {
 			<div className="relative  overflow-x-hidden w-full flex-col justify-end gap-2 bg-gradient-to-b from-white via-green-100 to-white px-2 flex">
 				<div className="flex flex-row gap-2 bg-transparent custom">
 					{cardsData1.map((item) => (
-						<div className="flex min-w-[224px] min-h-[192px]  bg-transparent flex-col justify-center gap-1 rounded-2xl border-2 border-green-200 bg-white p-3">
+						<div
+							className="flex min-w-[150px] md:min-w-[224px] sm:min-w-[224px] min-h-[140px] md:min-h-[192px] sm:min-h-[192px] bg-transparent flex-col justify-center gap-1 rounded-2xl border-2 border-green-200 bg-white p-3">
 							<span>
 								<svg
 									className="mb-2 h-9 w-9 rounded-full bg-green-500 p-2"
@@ -282,7 +283,7 @@ const ElementScroll = () => {
 				</div>
 				<div className="flex flex-row gap-2 bg-transparent custom1">
 					{cardsData3.map((item) => (
-						<div className="flex min-w-[224px] min-h-[192px]  bg-transparent flex-col justify-center gap-1 rounded-2xl border-2 border-green-200 bg-white p-3">
+						<div className="flex min-w-[150px] md:min-w-[224px] sm:min-w-[224px] min-h-[140px] md:min-h-[192px] sm:min-h-[192px] bg-transparent flex-col justify-center gap-1 rounded-2xl border-2 border-green-200 bg-white p-3">
 							<span>
 								<svg
 									className="mb-2 h-9 w-9 rounded-full bg-green-800 p-2"
@@ -310,7 +311,7 @@ const ElementScroll = () => {
 				</div>
 				<div className="flex flex-row gap-2 bg-transparent custom2">
 					{cardsData2.map((item) => (
-						<div className="flex min-w-[224px] min-h-[192px]  bg-transparent flex-col justify-center gap-1 rounded-2xl border-2 border-green-200 bg-white p-3">
+						<div className="flex min-w-[150px] md:min-w-[224px] sm:min-w-[224px] min-h-[140px] md:min-h-[192px] sm:min-h-[192px] bg-transparent flex-col justify-center gap-1 rounded-2xl border-2 border-green-200 bg-white p-3">
 							<span>
 								<svg
 									className="mb-2 h-9 w-9 rounded-full bg-green-500 p-2"
