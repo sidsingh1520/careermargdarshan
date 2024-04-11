@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import img from "../../assets/Badge.png";
+
 
 const data = [
 	{
 		icon: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				width="32"
-				height="32"
+				width="24"
+				height="24"
 				fill="currentColor"
 				class="bi bi-star-fill"
 				viewBox="0 0 16 16"
@@ -21,8 +22,8 @@ const data = [
 		icon: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				width="32"
-				height="32"
+				width="24"
+				height="24"
 				fill="currentColor"
 				class="bi bi-star-fill"
 				viewBox="0 0 16 16"
@@ -36,8 +37,8 @@ const data = [
 		icon: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				width="32"
-				height="32"
+				width="24"
+				height="24"
 				fill="currentColor"
 				class="bi bi-star-fill"
 				viewBox="0 0 16 16"
@@ -51,8 +52,8 @@ const data = [
 		icon: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				width="32"
-				height="32"
+				width="24"
+				height="24"
 				fill="currentColor"
 				class="bi bi-star-fill"
 				viewBox="0 0 16 16"
@@ -66,8 +67,8 @@ const data = [
 		icon: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				width="32"
-				height="32"
+				width="24"
+				height="24"
 				fill="currentColor"
 				class="bi bi-star-fill"
 				viewBox="0 0 16 16"
@@ -82,8 +83,8 @@ const data = [
 		icon: (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
-				width="32"
-				height="32"
+				width="24"
+				height="24"
 				fill="currentColor"
 				class="bi bi-star-fill"
 				viewBox="0 0 16 16"
@@ -97,23 +98,29 @@ const data = [
 ];
 
 const HelpCustomCard = () => {
+	const [width, setWidth] = useState(window.innerWidth);
+
 	return (
 		<div className="flex flex-col text-center items-center pt-16 font-bold gap-3 text-3xl help-custom-card-bg">
 			<p className="text-3xl sm:px-12">
 				#1 All India Engineering Counselling & Admission Support Platform
 			</p>
-			<div className="rounded-2xl w-full md:w-10/12 bg-green-300 mt-8">
-				<div className="rounded-2xl shadow-lg border-2 mt-2 mr-4 p-2 text-center items-center jusitfy-center bg-white">
-					<p className="text-2xl mt-[50px]">How Exactly Career Margdarshan is going to help you?</p>
-					<img className="block md:hidden mt-4 mx-auto" src={img} alt="no-img" height={40} width={"auto"}/>
+			<div className="rounded-2xl w-[90%] md:w-10/12 sm:w-10/12 bg-green-300 mt-8 mx-auto">
+				<div className="rounded-2xl shadow-lg border-2 mt-2 mr-2 p-2 text-center items-center jusitfy-center bg-white">
+					<p className="text-xl md:text-2xl mt-[15px] md:mt-[50px]">How Exactly Career Margdarshan is going to help you?</p>
+					<img className="block md:hidden mt-4 mx-auto help_card_img" src={img} alt="no-img" />
 					<div className="flex md:align-middle">
-						<div className="text-start my-8 md:pt-8 md:ml-8 md:pl-8 pb-8 w-10/12">
+						<div className="text-start mt-8 md:pt-8 md:ml-8 md:pl-8 pb-4 md:pb-8 w-full md:w-10/12">
 							{data.map((items, idx) => (
-								<div key={idx} className="flex md:align-center ml-8">
-									{items.icon}
-									<p className="text-lg font-light ml-8 antialiased tracking-wide">
-										{items.message}
-									</p>
+								<div key={idx} className="w-full md:w-10/12 sm:w-10/12 grid grid-cols-6 gap-4 mb-2">
+									<div className="flex justify-end pt-1">
+										{items.icon}
+									</div>
+									<div className="col-span-5">
+										<p className="text-lg font-light ml-0 md:ml-0 antialiased tracking-wide">
+											{items.message}
+										</p>
+									</div>
 								</div>
 							))}
 						</div>

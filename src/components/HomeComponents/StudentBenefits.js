@@ -14,7 +14,7 @@ const studentBioData = [
 		bio: `Career Margdarshan significantly aided me during my counseling days, 
 		assisting with college selection, choice filling, and more. Thanks to their 
 		guidance, I secured admission into CSE at IIIT Lucknow. Now, I've received a 
-		job offer of 43 lakhs from a tech company in Bangalore.`,
+		job offer from a tech company in Bangalore.`,
 	},
 	{
 		image_url: Shashwat,
