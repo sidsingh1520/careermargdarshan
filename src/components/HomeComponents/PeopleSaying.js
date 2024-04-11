@@ -30,7 +30,7 @@ const PeopleSaying = () => {
 	return (
 		<React.Fragment>
 			<div className="w-12/12 mt-8 pt-8 people-saying-section">
-				<p className="text-4xl text-center mb-[80px] font-bold">
+				<p className="text-3xl md:text-4xl sm:text-4xl text-center font-bold">
 					See What People Are Saying About Us!
 				</p>
 				<div className="mt-10 overflow-x-hidden w-12/12 px-2">
