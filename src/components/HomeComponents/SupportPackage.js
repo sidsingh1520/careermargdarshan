@@ -185,7 +185,7 @@ const SupportPackage = () => {
 	return (
 		<React.Fragment>
 			<div className="w-full mt-8 pt-8">
-				<p className="text-3xl text-center mb-8 font-bold">
+				<p className="text-2xl md:text-4xl sm:text-4xl text-center mb-8 font-bold w-8/12 md:w-full sm:w-full mx-auto">
 					All In One Counselling Support Package
 				</p>
 				<div className="relative mt-10 overflow-x-hidden w-full px-2 flex ">

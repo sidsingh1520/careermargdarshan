@@ -64,7 +64,7 @@ const studentBioData = [
 const StudentBenefits = () => {
 	return (
 		<div className="w-12/12 mt-8 pt-8">
-			<p className="text-3xl text-center mb-8 font-bold">
+			<p className="text-2xl md:text-4xl sm:text-4xl text-center mb-8 font-bold">
 				Students Benefited in the Past!
 			</p>
 			<div className="flex flex-wrap justify-center student-benefit-custom-bg px-8">
