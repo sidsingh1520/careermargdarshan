@@ -43,10 +43,10 @@ const Price = () => {
 						Get Exact College Information With Career Margdarshan AI (24*7).
 					</li>
 					<li className={customPTag}>
-						Dedicated One One One Counselling From Experts Counsellors To get You into The Best College.
+						Dedicated One Counselling From Experts Counsellors To get You into The Best College.
 					</li>
 					<li className={customPTag}>
-						One One One Support For Your Queries, Choice Filling & College Comparison doubts.
+						One Support For Your Queries, Choice Filling & College Comparison doubts.
 					</li>
 
 					<div className="mx-auto text-center">
