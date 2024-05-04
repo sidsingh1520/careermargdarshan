@@ -72,7 +72,8 @@ const Footer = () => {
 						/>
 						<img src={call} alt="no-img" className="footer-social-media-img cursor-pointer" />
 					</div>
-					<p className="text-base font-semibold sm:mt-6">Helpline - +917657876789</p>
+					{/* <p className="text-base font-semibold sm:mt-6">Helpline - +919703116355</p> */}
+					<a href="tel:+919703116355" className="text-base font-semibold sm:mt-6">+919703116355</a>
 				</div>
 			</div>
 			<div className="text-center w-full py-2 bg-green-500 text-white">
