@@ -5,28 +5,38 @@ import DashIconElement from "../../assets/icon.png";
 import PaintIcon from "../../assets/paint_icon.png";
 import Footer from "../Footer";
 import Header from "../Header";
-import one from "../../assets/allotment_letters/1.png"
-import two from "../../assets/allotment_letters/2.png"
-import three from "../../assets/allotment_letters/3.png"
-import four from "../../assets/allotment_letters/4.png"
-import five from "../../assets/allotment_letters/5.png"
-import six from "../../assets/allotment_letters/6.png"
-import seven from "../../assets/allotment_letters/7.png"
-import eight from "../../assets/allotment_letters/8.png"
-import nine from "../../assets/allotment_letters/9.png"
-import ten from "../../assets/allotment_letters/10.png"
-import eleven from "../../assets/allotment_letters/11.png"
-import twelve from "../../assets/allotment_letters/12.png"
-import thirteen from "../../assets/allotment_letters/13.png"
-import fourteen from "../../assets/allotment_letters/14.png"
-import fifteen from "../../assets/allotment_letters/15.png"
-import sixteen from "../../assets/allotment_letters/16.png"
-import seventeen from "../../assets/allotment_letters/17.png"
-import eighteen from "../../assets/allotment_letters/18.png"
-import nineteen from "../../assets/allotment_letters/19.png"
-import twenty from "../../assets/allotment_letters/20.png"
-// import twentyone from "../../assets/allotment_letters/21.png"
-// import twentytwo from "../../assets/allotment_letters/22.png"
+import one from "../../assets/allotment_letters/two_one.png"
+import two from "../../assets/allotment_letters/two_two.png"
+import three from "../../assets/allotment_letters/two_three.png"
+import four from "../../assets/allotment_letters/two_four.png"
+import five from "../../assets/allotment_letters/two_five.png"
+import six from "../../assets/allotment_letters/two_six.png"
+import seven from "../../assets/allotment_letters/two_seven.png"
+import eight from "../../assets/allotment_letters/two_eight.png"
+import nine from "../../assets/allotment_letters/two_nine.png"
+import ten from "../../assets/allotment_letters/three_zero.png"
+
+import eleven from "../../assets/allotment_letters/1.png"
+import twelve from "../../assets/allotment_letters/2.png"
+import thirteen from "../../assets/allotment_letters/3.png"
+import fourteen from "../../assets/allotment_letters/4.png"
+import fifteen from "../../assets/allotment_letters/5.png"
+import sixteen from "../../assets/allotment_letters/6.png"
+import seventeen from "../../assets/allotment_letters/7.png"
+import eighteen from "../../assets/allotment_letters/8.png"
+import nineteen from "../../assets/allotment_letters/9.png"
+import twenty from "../../assets/allotment_letters/10.png"
+
+import two_one from "../../assets/allotment_letters/11.png"
+import two_two from "../../assets/allotment_letters/12.png"
+import two_three from "../../assets/allotment_letters/13.png"
+import two_four from "../../assets/allotment_letters/14.png"
+import two_five from "../../assets/allotment_letters/15.png"
+import two_six from "../../assets/allotment_letters/16.png"
+import two_seven from "../../assets/allotment_letters/17.png"
+import two_eight from "../../assets/allotment_letters/18.png"
+import two_nine from "../../assets/allotment_letters/19.png"
+import three_zero from "../../assets/allotment_letters/20.png"
 
 
 const allotment_letters = {
@@ -50,8 +60,16 @@ const allotment_letters = {
     17: eighteen,
     18: nineteen,
     19: twenty,
-    // 20: twentyone,
-    // 21: twentytwo
+    20: two_one,
+    21: two_two,
+	22: two_three,
+	23: two_four,
+	24: two_five,
+	25: two_six,
+	26: two_seven,
+	27: two_eight,
+	28: two_nine,
+	29: three_zero
 };
 
 
@@ -72,7 +90,7 @@ const AllotmentLetter = () => {
 					Allotment letters of previous years students
 				</p>
 				<div className="flex flex-wrap w-10/12 mt-[50px] mx-auto justify-between">
-					{Array.from({ length: 20 }, (_, index) => {
+					{Array.from({ length: 30 }, (_, index) => {
 						return (
 							<div
 								className="letter_parent_div mb-8 mx-auto"

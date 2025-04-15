@@ -1,5 +1,5 @@
 import React from "react";
-import aboutUSImage from "../../assets/about_us.png";
+import aboutUSImage from "../../assets/about_us_2.png";
 import "./AboutUs.css";
 import Footer from "../Footer";
 import Header from "../Header";

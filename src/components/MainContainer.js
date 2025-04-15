@@ -67,7 +67,7 @@ const MainContainer = () => {
 						Signup Now
 					</button> */}
 					<button className="px-6 py-2 bg-white text-lg font-semibold rounded-lg border-black border-2" onClick={() => {
-						window.open("https://pages.razorpay.com/pl_Nw6kzIHKYnrkfG/view", "_self")
+						window.open("https://rzp.io/rzp/C3BKCTE", "_self")
 					}}>
 						Enroll Now
 					</button>

@@ -51,7 +51,7 @@ const Price = () => {
 
 					<div className="mx-auto text-center">
 						<button onClick={()=>{
-							window.open("https://pages.razorpay.com/pl_Nw6kzIHKYnrkfG/view","_self")
+							window.open("https://rzp.io/rzp/C3BKCTE","_self")
 						}} className="text-white bg-gradient-to-r from-green-500 to-green-400 hover:from-green-400 hover:to-green-500 text-xl font-bold w-full rounded-xl border-[1px] px-4 py-2 mt-10 hover:text-black">
 							ENROLL NOW!
 						</button>
